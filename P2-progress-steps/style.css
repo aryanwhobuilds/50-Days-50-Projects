@@ -34,7 +34,7 @@ body{
 
 .progress{
     position: absolute;
-    width: 50%;
+    width: 0%;
     height: 4px;
     background-color: var(--bg-filled);
     top: 50%;
