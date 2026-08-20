@@ -1,0 +1,52 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.srch-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.srch-bar.active input {
+  width: 290px;
+}
+.srch-bar input {
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 10px;
+  width: 55px;
+  font-size: 20px;
+  transition: width 0.3s ease-in;
+}
+
+button {
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+}
