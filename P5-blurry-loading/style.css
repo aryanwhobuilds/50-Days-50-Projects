@@ -1,0 +1,36 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ 
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.bg{
+ 
+  background: url('https://imgs.search.brave.com/AmPRdwIDYOyJc93__UL7HS1spRjgpaufd5JJWv3qaDY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIzMDE2/MzQuanBn') no-repeat center center/cover  ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(70px);
+
+
+}
+
+.loading-text{
+  font-size: 50px;
+  color: white;
+
+}
